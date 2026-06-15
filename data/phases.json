@@ -1,0 +1,26 @@
+[
+  {
+    "id": "61f26c15-7554-429d-9a2f-e6a0e4da0a54",
+    "name": "Initial Phase",
+    "start_date": "2026-03-01",
+    "color": "#1f77b4"
+  },
+  {
+    "id": "4b30b3a4-1fd8-41ee-8f68-69e88023a253",
+    "name": "More bins",
+    "start_date": "2026-04-01",
+    "color": "#9ae1f2"
+  },
+  {
+    "id": "5f646d0e-dc5b-47f7-af55-b70116b7853a",
+    "name": "More cleaning",
+    "start_date": "2026-04-15",
+    "color": "#317a55"
+  },
+  {
+    "id": "89fab3ce-495c-438e-af76-405e2ad1b3f3",
+    "name": "More police",
+    "start_date": "2026-04-22",
+    "color": "#ea3de3"
+  }
+]
