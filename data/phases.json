@@ -1,0 +1,136 @@
+[
+  {
+    "id": "bcc1c270-c584-42f1-ae42-911ee31c386f",
+    "name": "Painted footprints to the bins",
+    "start_date": "2026-04-08",
+    "color": "#3b82f6",
+    "status": "running",
+    "description": "Bright lime footprints leading from the busiest seating area to the nearest bins.",
+    "hypothesis": "Visual nudges from the seating area to the bins will raise disposal rates and cut litter accumulation in the south plaza.",
+    "interventions": [
+      {
+        "name": "Baseline (no paint)",
+        "description": "The square as-is, before any footprints were painted.",
+        "isBaseline": true
+      },
+      {
+        "name": "Painted footprints",
+        "description": "Lime footprints painted on the pavement from the south seating area to the nearest bins.",
+        "isBaseline": false
+      }
+    ]
+  },
+  {
+    "id": "e0be3413-0ab3-4ddb-af8e-887edcc8a09e",
+    "name": "Cigarette voting ashtrays",
+    "start_date": "2026-04-18",
+    "color": "#84cc16",
+    "status": "running",
+    "description": "Two transparent voting ashtrays at the south entrance posing a light-hearted question.",
+    "hypothesis": "Gamified ashtrays convert discarded butts into a playful vote and reduce butts on the ground.",
+    "interventions": [
+      {
+        "name": "Baseline",
+        "description": "Standard ashtrays only.",
+        "isBaseline": true
+      },
+      {
+        "name": "Voting ashtrays",
+        "description": "Transparent two-column ashtrays with a weekly question.",
+        "isBaseline": false
+      }
+    ]
+  },
+  {
+    "id": "a2079f9e-9721-4b40-9a4f-baccb126ada4",
+    "name": "Summer evening cleaning shift",
+    "start_date": "2026-06-22",
+    "color": "#f97316",
+    "status": "planned",
+    "description": "Extending Friday and Saturday cleaning to 22:00 during the summer high-traffic season.",
+    "hypothesis": "Later-evening cleaning during summer keeps Saturday/Sunday-morning litter visible to early visitors low.",
+    "interventions": [
+      {
+        "name": "Baseline (current schedule)",
+        "description": "Cleaning ends at 19:00 Friday and Saturday.",
+        "isBaseline": true
+      },
+      {
+        "name": "Late-evening cleaning",
+        "description": "Extend Friday and Saturday cleaning to 22:00 through June, July and August.",
+        "isBaseline": false
+      }
+    ]
+  },
+  {
+    "id": "780c502a-4e00-4685-b245-f379abb8e41e",
+    "name": "Saturday citizen sweep",
+    "start_date": "2026-06-28",
+    "color": "#d946ef",
+    "status": "planned",
+    "description": "Volunteer-led 30-minute citizen sweep every Saturday at 10:00, supported by the city.",
+    "interventions": [
+      {
+        "name": "Baseline",
+        "description": "No organized volunteer sweep.",
+        "isBaseline": true
+      },
+      {
+        "name": "Citizen sweep",
+        "description": "Volunteer 30-minute sweep Saturday mornings.",
+        "isBaseline": false
+      }
+    ]
+  },
+  {
+    "id": "37333059-8bad-4291-b2be-5938114945f7",
+    "name": "Signage rewrite at north gate",
+    "start_date": "2026-03-22",
+    "end_date": "2026-04-05",
+    "color": "#06b6d4",
+    "status": "concluded",
+    "description": "Replacing the prohibitive 'no littering' sign with a humorous, gratitude-framed message.",
+    "hypothesis": "A gratitude-framed sign reduces litter in the north entrance area more than a prohibitive one.",
+    "interventions": [
+      {
+        "name": "Baseline (old sign)",
+        "description": "Original 'no littering' sign in place.",
+        "isBaseline": true
+      },
+      {
+        "name": "Gratitude sign",
+        "description": "Illustrated sign thanking visitors for keeping the square tidy.",
+        "isBaseline": false
+      }
+    ],
+    "decision": {
+      "summary": "Consistent ~10% reduction across the north gate with no observed downsides. The effect is modest but durable; roll the gratitude-sign template out to the south and east entrances.",
+      "nextStep": "Roll the gratitude-sign template out to the south and east entrances in Q3."
+    }
+  },
+  {
+    "id": "cf46c8f0-48d9-4bc7-84ed-d8c94723ea3b",
+    "name": "Extra bins at night",
+    "start_date": "2026-04-06",
+    "end_date": "2026-04-18",
+    "color": "#eab308",
+    "status": "concluded",
+    "description": "Two additional bins placed near the seating area for the late-evening period.",
+    "interventions": [
+      {
+        "name": "Baseline",
+        "description": "Standard bin layout.",
+        "isBaseline": true
+      },
+      {
+        "name": "Extra night bins",
+        "description": "Two extra bins near the seating area, evenings only.",
+        "isBaseline": false
+      }
+    ],
+    "decision": {
+      "summary": "No measurable change in litter counts; the extra bins were under-used and added a servicing cost. Discontinue.",
+      "nextStep": "Reallocate the two bins to the Saturday market instead."
+    }
+  }
+]
